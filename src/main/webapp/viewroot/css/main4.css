@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&family=Ubuntu&display=swap');
+* {
+  padding: auto;
+  margin: 0;  
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+/* .box2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background: rgb(255, 102, 0);
+} */
+
+
+
+/* body {
+    font-family: 'Quicksand', sans-serif;
+} */
+
+
+#wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'Quicksand', sans-serif;
+    background: url(/jon/images/bg-icon.png);
+}
+
+
+ul.product{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .bg::before{
+   background: #eee;
+   position: absolute;
+   max-height:950px ;
+   content: "";
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 1000px;
+} */
+
+.product-item {
+    width: 250px;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px double rgb(0, 0, 0, .3  );
+    box-shadow: var(box-shadow);
+    background-image: url("/jon/images/border2.png");
+    background-size: cover;
+    z-index: 12;
+}
+
+.view-more{
+    font-size: 20px;
+    color: #111;
+}
+
+/* .product-item .buy {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: rgb(136, 233, 136);
+    column-rule: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    
+} */
+
+ul.product li {
+    flex-basis: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.product li img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block;
+
+}
+
+ul.product li .product-infor a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    font-size: 25px;
+    color: rgb(171, 168, 168);
+    color: #f4cb1e;
+    font-weight: bolder;
+}
+
+ul.product li .product-infor .product-price {
+font-weight: bold;
+    color: #eee;
+    padding: 5px 10px;
+}
+
+
